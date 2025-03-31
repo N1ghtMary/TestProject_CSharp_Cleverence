@@ -1,0 +1,76 @@
+# Visual Studio
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Бинарные файлы
+*.exe
+*.dll
+*.pdb
+*.manifest
+*.appx
+*.appxsym
+*.appxupload
+
+# Временные файлы сборки
+bin/
+obj/
+
+# Пакеты NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Логи
+*.log
+
+# Конфигурационные файлы и настройки IDE
+*.suo
+*.user
+*.userosscache
+*.rsuser
+
+# Компоненты кэша
+*.cache
+*.ide
+*.vssettings
+_TemporaryKey.pfx
+
+# Файлы публикации
+*.publishsettings
+
+# База данных (например, SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# Папки для функций
+TestResults/
+Coverage/
+
+# Временные файлы приложения
+*.tmp
+*.temp
+
+# Для MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Локальные файлы среды
+.env
+
+# Игнорирование файлов операционной системы
+Thumbs.db
+desktop.ini
+
+# Игнорирование сторонних библиотек
+node_modules/
+
+# Запрет отслеживания готовых файлов сборки
+dist/
+
+# Примерные настройки приложений
+appsettings.json
+appsettings*.json
