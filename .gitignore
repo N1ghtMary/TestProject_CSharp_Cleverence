@@ -40,11 +40,6 @@ _TemporaryKey.pfx
 # Файлы публикации
 *.publishsettings
 
-# База данных (например, SQLite)
-*.db
-*.db-shm
-*.db-wal
-
 # Папки для функций
 TestResults/
 Coverage/
@@ -52,11 +47,6 @@ Coverage/
 # Временные файлы приложения
 *.tmp
 *.temp
-
-# Для MacOS
-.DS_Store
-.AppleDouble
-.LSOverride
 
 # Локальные файлы среды
 .env
@@ -71,6 +61,3 @@ node_modules/
 # Запрет отслеживания готовых файлов сборки
 dist/
 
-# Примерные настройки приложений
-appsettings.json
-appsettings*.json
